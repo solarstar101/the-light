@@ -3817,3 +3817,25 @@ aside .latest-post li figure {width: 75px;}
 .full-vh {
     width: 1920px;
 }
+.medium-icon {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -65px;
+}
+
+@media (max-width: 765px){
+    .medium-icon {
+        height: 60px;
+        width: auto;
+        position: relative;
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .large-icon {
+        height: 230px;
+        width: auto;
+    }
+}
